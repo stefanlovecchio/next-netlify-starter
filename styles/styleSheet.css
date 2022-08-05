@@ -1,0 +1,215 @@
+html {
+    font-family: 'Megrim', cursive, 'Poiret One', cursive;
+    background: rgb(236,236,236);
+    background: linear-gradient(140deg, #f0f5f9 50%, #7a909f 100%);
+}
+
+nav {
+    display: flex;
+    align-items: baseline;
+    border-style: solid;
+    border-block-color: #52616b;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: hidden;
+}
+
+body {
+    font-size: 1.2rem;
+    max-width: 1024px;
+    margin: auto;
+    color: #000000;
+    padding: 13px;
+    width:95%;
+    font-weight: bold;
+  }
+
+  #box {
+    display:hidden;
+  }
+
+  img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.card-title {
+    align-content: center;
+}
+
+header {
+    font-family: 'Megrim', cursive;
+    text-align-last: center;
+}
+
+main {
+    font-family: 'Poiret One', cursive;
+}
+
+.info, .education {
+    padding:20px;
+}
+
+.info {
+min-width: 40%;
+}
+
+
+
+.cards {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: #c9d6df;
+}
+
+.About {
+    background-color: #f0f5f9;
+    max-width: 100%;
+}
+
+.education {
+    background-color: #f0f5f9;
+    position: relative;
+    text-align: center;
+}
+
+.is-hiring {
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+
+input#name, input#email, input#address, input#city, input#postalCode {
+    display:flex;
+    size: 100;
+    maxlength: 100;
+}
+
+#ed1 {
+    background-color: #52616b;
+    display: flex;
+    flex-direction: column;
+}
+
+#ed2 {
+    background-color: #52616b;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+
+}
+
+.schools {
+    display:flex;
+    flex-direction: column;
+    position:absolute;
+    left: 0px;
+    right: 0px;
+    background-color: #52616b;
+    border-bottom: solid;
+    border-bottom-color: #52616b;
+    border-bottom-width: 44px;
+  }
+
+  hr {
+    width: 100%;
+    height: 10px;
+    background-color: #c9d6df;
+    border-style: none;
+    margin-top: 0px;
+  }
+
+  th {
+    text-align: left;
+  }
+
+  td {
+    text-align: left;
+    font-weight: bold;
+    padding-left: 50px;
+    line-height: 40px;
+  }
+
+  #form1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-right: 20px;
+  }
+
+  #form2 {
+    grid-column-start: 2; 
+    grid-column-end: 3;
+    
+  }
+
+form {
+  display: grid;
+  align-items: start;
+  justify-content: start;
+  background-color: #c9d6df;
+}
+
+#con {
+  background-color: #52616b;
+  margin:
+  auto;
+  padding:0.2em;
+}
+
+input {
+  background-color: #f0f5f9;
+  border-style: none;
+}
+
+h2 {
+  color: #212121;
+}
+
+textarea {
+  background-color: #f0f5f9;
+  border-style: none;
+}
+
+button,
+input[type="submit"],
+input[type="button"] {
+  display: inline-block;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: #52616b;
+  color: #f9f9f9;
+  border-radius: 1px;
+  border: 1px solid #52616b;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-family: 'Poiret One', cursive;
+  font-size:medium;
+}
+.button[disabled],
+button[disabled],
+input[type="submit"][disabled],
+input[type="button"][disabled] {
+  cursor: default;
+  opacity: 0.5;
+}
+
+button:focus:enabled,
+button:hover:enabled,
+input[type="submit"]:focus:enabled,
+input[type="submit"]:hover:enabled,
+input[type="button"]:focus:enabled,
+input[type="button"]:hover:enabled {
+  background-color: #62929a;
+  border-color: #62929a;
+  color: #f9f9f9;
+  outline: 0;
+}
